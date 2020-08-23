@@ -35,7 +35,7 @@ $ yarn build
 command not found: tsc
 ```
 
-✅ but
+✅ but if we run command from root
 ```
 $ yarn run packages:ui:build
 ```
@@ -65,4 +65,4 @@ command not found: eslint
 
 `tsc` and `eslint` should resolve from root `node_modules`.
 
-`yarn@1.22.4` can resolve this ([go to folder](../yarn-classic/README.md)).
+`yarn@1.22.4` can resolve this ([go to folder](../yarn-classic)).
