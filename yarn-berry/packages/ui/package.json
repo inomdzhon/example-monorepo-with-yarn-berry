@@ -2,7 +2,7 @@
   "name": "ui",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --outdir dist",
     "prepack": "yarn build",
     "ci:eslint": "eslint --quiet ./src/**/*.ts"
   },
