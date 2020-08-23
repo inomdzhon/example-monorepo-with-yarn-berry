@@ -1,0 +1,13 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "yarn build",
+    "ci:eslint": "eslint --quiet ./src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inomdzhon/example-monorepo-with-yarn-berry"
+  }
+}
