@@ -35,11 +35,10 @@ $ yarn build
 command not found: tsc
 ```
 
-✅ but if we run command from root
+✅ but if we run command from root it found command
 ```
 $ yarn run packages:ui:build
 ```
-resolve `tsc`.
 
 
 ### 2️⃣ example
